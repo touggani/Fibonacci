@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "src\Demo\Demo.cspro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "src\Fibonacci\Fibonacci.csproj", "{357AD542-0346-4A48-843B-F1775790E449}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testsFibonacci.Tests", "testsFibonacci.Tests\testsFibonacci.Tests.csproj", "{DDC2010A-8E9D-49C9-BD5D-321535F8B2AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Tests", "tests\Fibonacci.Tests\Fibonacci.Tests.csproj", "{DDC2010A-8E9D-49C9-BD5D-321535F8B2AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

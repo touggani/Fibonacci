@@ -2,20 +2,20 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Fibonacci/1.0.0": {
+      "Touggani.Youssef.Fibonacci/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Fibonacci.dll": {}
+          "bin/placeholder/Touggani.Youssef.Fibonacci.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Fibonacci.dll": {}
+          "bin/placeholder/Touggani.Youssef.Fibonacci.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Fibonacci/1.0.0": {
+    "Touggani.Youssef.Fibonacci/1.0.0": {
       "type": "project",
       "path": "../Fibonacci/Fibonacci.csproj",
       "msbuildProject": "../Fibonacci/Fibonacci.csproj"
@@ -23,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Fibonacci >= 1.0.0"
+      "Touggani.Youssef.Fibonacci >= 1.0.0"
     ]
   },
   "packageFolders": {
