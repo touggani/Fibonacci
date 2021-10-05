@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LxLXvsAH8iAFkMawujmHtXvIxHPDQylL9ns9r7XjRWI/rJ1T8iahRmeiJNuyML1uxFC/FlpzEZZPIvKaPwYlXw==",
+  "dgSpecHash": "GIRx9dsMw/OIjZY0UP5zZYTfyEYalciQC5xZkv/cbghTR63mAS5deFFDceVtWNDChOwVWVfkRZqvYlUTBxVGNg==",
   "success": true,
   "projectFilePath": "/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci.Web/Fibonacci.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/yousseftouggani/.nuget/packages/touggani.youssef.fibonacci/1.0.0/touggani.youssef.fibonacci.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
