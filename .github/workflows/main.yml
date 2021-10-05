@@ -21,16 +21,15 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+    steps:      
+      - uses: actions/checkout@v2      
+      - uses: actions/setup-dotnet@v1        
+      with:          
+        dotnet-version: '6.0.100-rc.1.21458.32'       
+      - run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=./coverage/opencover.xml      
+      - run: dotnet publish ./src/Fibonacci.Web/Fibonacci.Web.csproj --self-contained true --output ./win-x64/fibonacci -f netcoreapp3.1 -c Release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true /p:PublishReadyToRun=true      
+      - name: Upload WebApp1 Build Artifact        
+      uses: actions/upload-artifact@v2        
+      with:          
+        name: Publish win-x64 Fibonacci          
+        path: ./win-x64/fibonacci
