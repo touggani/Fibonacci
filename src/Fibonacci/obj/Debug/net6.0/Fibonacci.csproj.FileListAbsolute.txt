@@ -1,0 +1,13 @@
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/bin/Debug/net6.0/Fibonacci.deps.json
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/bin/Debug/net6.0/Fibonacci.dll
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/bin/Debug/net6.0/ref/Fibonacci.dll
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/bin/Debug/net6.0/Fibonacci.pdb
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/Fibonacci.GlobalUsings.g.cs
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/Fibonacci.csproj.AssemblyReference.cache
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/Fibonacci.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/Fibonacci.AssemblyInfoInputs.cache
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/Fibonacci.AssemblyInfo.cs
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/Fibonacci.csproj.CoreCompileInputs.cache
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/Fibonacci.dll
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/ref/Fibonacci.dll
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/Fibonacci.pdb
