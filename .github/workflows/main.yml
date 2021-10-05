@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -21,15 +21,15 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:      
-      - uses: actions/checkout@v2      
-      - uses: actions/setup-dotnet@v1        
-      with:          
-        dotnet-version: '6.0.100-rc.1.21458.32'       
-      - run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=./coverage/opencover.xml      
-      - run: dotnet publish ./src/Fibonacci.Web/Fibonacci.Web.csproj --self-contained true --output ./win-x64/fibonacci -f netcoreapp3.1 -c Release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true /p:PublishReadyToRun=true      
-      - name: Upload WebApp1 Build Artifact        
-      uses: actions/upload-artifact@v2        
-      with:          
-        name: Publish win-x64 Fibonacci          
-        path: ./win-x64/fibonacci
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: "6.0.100-rc.1.21458.32"
+      - run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=./coverage/opencover.xml
+      - run: dotnet publish ./src/Fibonacci.Web/Fibonacci.Web.csproj --self-contained true --output ./win-x64/fibonacci -c Release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true /p:PublishReadyToRun=true
+      - name: Upload WebApp1 Build Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Publish win-x64 Fibonacci
+          path: ./win-x64/fibonacci
