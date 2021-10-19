@@ -11,3 +11,5 @@
 /Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/Fibonacci.dll
 /Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/ref/Fibonacci.dll
 /Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/Fibonacci.pdb
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/bin/Debug/net6.0/Fibonacci.runtimeconfig.json
+/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/Fibonacci/obj/Debug/net6.0/Fibonacci.genruntimeconfig.cache
