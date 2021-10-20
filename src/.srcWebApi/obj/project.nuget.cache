@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wn+WWWaW6VoRLv+CE8f1LdjSlo0+7HH3Esi9UjRm9C2/3n3COXVHsZUVJqApLsLJtNY9nBuKPCKyaDCA51sKNA==",
+  "success": true,
+  "projectFilePath": "/Users/yousseftouggani/Desktop/cours/MicrosoftTechno/Fibonacci/src/.srcWebApi/.srcWebApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/yousseftouggani/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/yousseftouggani/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/yousseftouggani/.nuget/packages/swashbuckle.aspnetcore/6.1.5/swashbuckle.aspnetcore.6.1.5.nupkg.sha512",
+    "/Users/yousseftouggani/.nuget/packages/swashbuckle.aspnetcore.swagger/6.1.5/swashbuckle.aspnetcore.swagger.6.1.5.nupkg.sha512",
+    "/Users/yousseftouggani/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.1.5/swashbuckle.aspnetcore.swaggergen.6.1.5.nupkg.sha512",
+    "/Users/yousseftouggani/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.1.5/swashbuckle.aspnetcore.swaggerui.6.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
